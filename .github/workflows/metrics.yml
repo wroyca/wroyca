@@ -32,7 +32,7 @@ jobs:
           base_hireable: yes
           base_indepth: yes
           config_octicon: yes
-          config_padding: 0, 8 + 100%
+          config_padding: 0, 10 + 8%
           config_timezone: America/New_York
           repositories_skipped: |
             @use.patterns

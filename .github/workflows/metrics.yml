@@ -27,8 +27,10 @@ jobs:
 
           # Options
           user: wroyca
-          template: markdown
-          markdown_cache: .cache
+          filename: metrics.markdown.full.md
+          markdown: >-
+            https://raw.githubusercontent.com/lowlighter/metrics/master/source/templates/markdown/example.md
+          config_output: markdown
           base: header, activity, community, repositories, metadata
           base_hireable: yes
           base_indepth: yes

@@ -27,7 +27,8 @@ jobs:
 
           # Options
           user: wroyca
-          template: classic
+          template: markdown
+          markdown_cache: .cache
           base: header, activity, community, repositories, metadata
           base_hireable: yes
           base_indepth: yes
